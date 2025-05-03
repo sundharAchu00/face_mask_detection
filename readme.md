@@ -31,3 +31,38 @@ While the model is trained on a minimal dataset, it's a solid step into the worl
 ---
 
 ## 📁 Project Structure
+face-mask-detection/
+│
+├── dataset/ # Input images, organized by class
+├── notebooks/ # Jupyter training notebooks
+├── face_mask_detector_model.h5 # Trained model
+├── app.py # Webcam-based real-time inference
+├── run.py # API entry point (WIP)
+├── requirements.txt
+└── README.md # You’re here
+
+## ⚠️ Limitations
+
+This was built using a **limited dataset**, so real-world accuracy may vary.  
+But hey — this is just **step one**, and it works! 🎉
+
+---
+
+## 🙌 Inspired By
+
+Curiosity, late-night coding sessions, and a passion to move from full stack to AI/ML.  
+Happy to share this with the world — and always open to feedback!
+
+---
+
+## 🔗 Connect with Me
+
+- 🔥 LinkedIn : https://www.linkedin.com/in/s-sundhar-raj-51246a188/ 
+
+---
+
+## 📌 Installation (Optional - Local Testing)
+
+```bash
+pip install -r requirements.txt
+python app.py
