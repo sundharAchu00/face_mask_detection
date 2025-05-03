@@ -29,18 +29,6 @@ While the model is trained on a minimal dataset, it's a solid step into the worl
 - Kaggle (for training & experimentation)
 
 ---
-
-## 📁 Project Structure
-face-mask-detection/
---│
---├── dataset/ # Input images, organized by class
---├── notebooks/ # Jupyter training notebooks
---├── face_mask_detector_model.h5 # Trained model
---├── app.py # Webcam-based real-time inference
---├── run.py # API entry point (WIP)
---├── requirements.txt
---└── README.md # You’re here
-
 ## ⚠️ Limitations
 
 This was built using a **limited dataset**, so real-world accuracy may vary.  
